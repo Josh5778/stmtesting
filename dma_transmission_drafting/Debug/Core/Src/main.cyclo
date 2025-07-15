@@ -1,0 +1,11 @@
+../Core/Src/main.cpp:83:6:void uart_transmission_task(void*)	2
+../Core/Src/main.cpp:99:6:void uart_queue_init()	1
+../Core/Src/main.cpp:111:6:void send_json_queued(cJSON*)	2
+../Core/Src/main.cpp:130:6:void HAL_UART_TxCpltCallback(UART_HandleTypeDef*)	3
+../Core/Src/main.cpp:155:5:int main()	1
+../Core/Src/main.cpp:237:6:void SystemClock_Config()	4
+../Core/Src/main.cpp:298:13:void MX_USART2_UART_Init()	2
+../Core/Src/main.cpp:331:13:void MX_DMA_Init()	1
+../Core/Src/main.cpp:349:13:void MX_GPIO_Init()	1
+../Core/Src/main.cpp:387:6:void StartDefaultTask(const void*)	1
+../Core/Src/main.cpp:402:6:void Error_Handler()	1

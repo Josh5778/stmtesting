@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;stmdrafting_transmission_2/Core/Inc/cJSON.hpp&apos; to &apos;cJSON.h&apos;" description="Rename resource &apos;cJSON.hpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/cJSON.hpp" name="cJSON.h" stamp="1752559593075" updateReferences="true"/>
+</session>

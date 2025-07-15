@@ -1,0 +1,113 @@
+../Core/Inc/cJSON.cpp:94:28:const char* cJSON_GetErrorPtr()	4	static
+../Core/Inc/cJSON.cpp:99:22:char* cJSON_GetStringValue(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:109:22:double cJSON_GetNumberValue(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:124:27:const char* cJSON_Version()	16	static
+../Core/Inc/cJSON.cpp:133:12:int case_insensitive_strcmp(const unsigned char*, const unsigned char*)	24	static
+../Core/Inc/cJSON.cpp:188:23:unsigned char* cJSON_strdup(const unsigned char*, const internal_hooks*)	24	static
+../Core/Inc/cJSON.cpp:209:20:void cJSON_InitHooks(cJSON_Hooks*)	16	static
+../Core/Inc/cJSON.cpp:241:15:cJSON* cJSON_New_Item(const internal_hooks*)	24	static
+../Core/Inc/cJSON.cpp:253:20:void cJSON_Delete(cJSON*)	24	static
+../Core/Inc/cJSON.cpp:279:22:unsigned char get_decimal_point()	4	static
+../Core/Inc/cJSON.cpp:307:19:cJSON_bool parse_number(cJSON*, parse_buffer*)	56	static
+../Core/Inc/cJSON.cpp:411:22:double cJSON_SetNumberHelper(cJSON*, double)	24	static
+../Core/Inc/cJSON.cpp:430:21:char* cJSON_SetValuestring(cJSON*, const char*)	32	static
+../Core/Inc/cJSON.cpp:485:23:unsigned char* ensure(printbuffer*, size_t)	24	static
+../Core/Inc/cJSON.cpp:571:13:void update_offset(printbuffer*)	32	static
+../Core/Inc/cJSON.cpp:584:19:cJSON_bool compare_double(double, double)	56	static
+../Core/Inc/cJSON.cpp:591:19:cJSON_bool print_number(const cJSON*, printbuffer*)	88	static
+../Core/Inc/cJSON.cpp:661:17:unsigned int parse_hex4(const unsigned char*)	24	static
+../Core/Inc/cJSON.cpp:698:22:unsigned char utf16_literal_to_utf8(const unsigned char*, const unsigned char*, unsigned char**)	48	static
+../Core/Inc/cJSON.cpp:819:19:cJSON_bool parse_string(cJSON*, parse_buffer*)	48	static
+../Core/Inc/cJSON.cpp:949:19:cJSON_bool print_string_ptr(const unsigned char*, printbuffer*)	40	static
+../Core/Inc/cJSON.cpp:1071:19:cJSON_bool print_string(const cJSON*, printbuffer*)	16	static
+../Core/Inc/cJSON.cpp:1085:22:parse_buffer* buffer_skip_whitespace(parse_buffer*)	16	static
+../Core/Inc/cJSON.cpp:1111:22:parse_buffer* skip_utf8_bom(parse_buffer*)	16	static
+../Core/Inc/cJSON.cpp:1126:23:cJSON* cJSON_ParseWithOpts(const char*, const char**, cJSON_bool)	32	static
+../Core/Inc/cJSON.cpp:1142:23:cJSON* cJSON_ParseWithLengthOpts(const char*, size_t, const char**, cJSON_bool)	64	static
+../Core/Inc/cJSON.cpp:1222:23:cJSON* cJSON_Parse(const char*)	16	static
+../Core/Inc/cJSON.cpp:1227:23:cJSON* cJSON_ParseWithLength(const char*, size_t)	16	static
+../Core/Inc/cJSON.cpp:1234:23:unsigned char* print(const cJSON*, cJSON_bool, const internal_hooks*)	64	static
+../Core/Inc/cJSON.cpp:1302:22:char* cJSON_Print(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:1307:22:char* cJSON_PrintUnformatted(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:1312:22:char* cJSON_PrintBuffered(const cJSON*, int, cJSON_bool)	64	static
+../Core/Inc/cJSON.cpp:1343:26:cJSON_bool cJSON_PrintPreallocated(cJSON*, char*, int, cJSON_bool)	64	static
+../Core/Inc/cJSON.cpp:1363:19:cJSON_bool parse_value(cJSON*, parse_buffer*)	16	static
+../Core/Inc/cJSON.cpp:1418:19:cJSON_bool print_value(const cJSON*, printbuffer*)	24	static
+../Core/Inc/cJSON.cpp:1492:19:cJSON_bool parse_array(cJSON*, parse_buffer*)	32	static
+../Core/Inc/cJSON.cpp:1590:19:cJSON_bool print_array(const cJSON*, printbuffer*)	32	static
+../Core/Inc/cJSON.cpp:1652:19:cJSON_bool parse_object(cJSON*, parse_buffer*)	32	static
+../Core/Inc/cJSON.cpp:1770:19:cJSON_bool print_object(const cJSON*, printbuffer*)	40	static
+../Core/Inc/cJSON.cpp:1884:19:int cJSON_GetArraySize(const cJSON*)	24	static
+../Core/Inc/cJSON.cpp:1907:15:cJSON* get_array_item(const cJSON*, size_t)	24	static
+../Core/Inc/cJSON.cpp:1926:23:cJSON* cJSON_GetArrayItem(const cJSON*, int)	16	static
+../Core/Inc/cJSON.cpp:1936:15:cJSON* get_object_item(const cJSON*, const char*, cJSON_bool)	32	static
+../Core/Inc/cJSON.cpp:1968:23:cJSON* cJSON_GetObjectItem(const cJSON*, const char*)	16	static
+../Core/Inc/cJSON.cpp:1973:23:cJSON* cJSON_GetObjectItemCaseSensitive(const cJSON*, const char*)	16	static
+../Core/Inc/cJSON.cpp:1978:26:cJSON_bool cJSON_HasObjectItem(const cJSON*, const char*)	16	static
+../Core/Inc/cJSON.cpp:1984:13:void suffix_object(cJSON*, cJSON*)	16	static
+../Core/Inc/cJSON.cpp:1991:15:cJSON* create_reference(const cJSON*, const internal_hooks*)	24	static
+../Core/Inc/cJSON.cpp:2012:19:cJSON_bool add_item_to_array(cJSON*, cJSON*)	24	static
+../Core/Inc/cJSON.cpp:2046:26:cJSON_bool cJSON_AddItemToArray(cJSON*, cJSON*)	16	static
+../Core/Inc/cJSON.cpp:2058:14:void* cast_away_const(const void*)	16	static
+../Core/Inc/cJSON.cpp:2067:19:cJSON_bool add_item_to_object(cJSON*, const char*, cJSON*, const internal_hooks*, cJSON_bool)	32	static
+../Core/Inc/cJSON.cpp:2104:26:cJSON_bool cJSON_AddItemToObject(cJSON*, const char*, cJSON*)	32	static
+../Core/Inc/cJSON.cpp:2110:26:cJSON_bool cJSON_AddItemToObjectCS(cJSON*, const char*, cJSON*)	32	static
+../Core/Inc/cJSON.cpp:2115:26:cJSON_bool cJSON_AddItemReferenceToArray(cJSON*, cJSON*)	16	static
+../Core/Inc/cJSON.cpp:2125:26:cJSON_bool cJSON_AddItemReferenceToObject(cJSON*, const char*, cJSON*)	32	static
+../Core/Inc/cJSON.cpp:2135:22:cJSON* cJSON_AddNullToObject(cJSON*, const char*)	32	static
+../Core/Inc/cJSON.cpp:2147:22:cJSON* cJSON_AddTrueToObject(cJSON*, const char*)	32	static
+../Core/Inc/cJSON.cpp:2159:22:cJSON* cJSON_AddFalseToObject(cJSON*, const char*)	32	static
+../Core/Inc/cJSON.cpp:2171:22:cJSON* cJSON_AddBoolToObject(cJSON*, const char*, cJSON_bool)	40	static
+../Core/Inc/cJSON.cpp:2183:22:cJSON* cJSON_AddNumberToObject(cJSON*, const char*, double)	40	static
+../Core/Inc/cJSON.cpp:2195:22:cJSON* cJSON_AddStringToObject(cJSON*, const char*, const char*)	40	static
+../Core/Inc/cJSON.cpp:2207:22:cJSON* cJSON_AddRawToObject(cJSON*, const char*, const char*)	40	static
+../Core/Inc/cJSON.cpp:2219:22:cJSON* cJSON_AddObjectToObject(cJSON*, const char*)	32	static
+../Core/Inc/cJSON.cpp:2231:22:cJSON* cJSON_AddArrayToObject(cJSON*, const char*)	32	static
+../Core/Inc/cJSON.cpp:2243:23:cJSON* cJSON_DetachItemViaPointer(cJSON*, cJSON*)	16	static
+../Core/Inc/cJSON.cpp:2279:23:cJSON* cJSON_DetachItemFromArray(cJSON*, int)	16	static
+../Core/Inc/cJSON.cpp:2289:20:void cJSON_DeleteItemFromArray(cJSON*, int)	16	static
+../Core/Inc/cJSON.cpp:2294:23:cJSON* cJSON_DetachItemFromObject(cJSON*, const char*)	24	static
+../Core/Inc/cJSON.cpp:2301:23:cJSON* cJSON_DetachItemFromObjectCaseSensitive(cJSON*, const char*)	24	static
+../Core/Inc/cJSON.cpp:2308:20:void cJSON_DeleteItemFromObject(cJSON*, const char*)	16	static
+../Core/Inc/cJSON.cpp:2313:20:void cJSON_DeleteItemFromObjectCaseSensitive(cJSON*, const char*)	16	static
+../Core/Inc/cJSON.cpp:2319:26:cJSON_bool cJSON_InsertItemInArray(cJSON*, int, cJSON*)	32	static
+../Core/Inc/cJSON.cpp:2353:26:cJSON_bool cJSON_ReplaceItemViaPointer(cJSON*, cJSON*, cJSON*)	24	static
+../Core/Inc/cJSON.cpp:2402:26:cJSON_bool cJSON_ReplaceItemInArray(cJSON*, int, cJSON*)	24	static
+../Core/Inc/cJSON.cpp:2412:19:cJSON_bool replace_item_in_object(cJSON*, const char*, cJSON*, cJSON_bool)	24	static
+../Core/Inc/cJSON.cpp:2435:26:cJSON_bool cJSON_ReplaceItemInObject(cJSON*, const char*, cJSON*)	24	static
+../Core/Inc/cJSON.cpp:2440:26:cJSON_bool cJSON_ReplaceItemInObjectCaseSensitive(cJSON*, const char*, cJSON*)	24	static
+../Core/Inc/cJSON.cpp:2446:23:cJSON* cJSON_CreateNull()	16	static
+../Core/Inc/cJSON.cpp:2457:23:cJSON* cJSON_CreateTrue()	16	static
+../Core/Inc/cJSON.cpp:2468:23:cJSON* cJSON_CreateFalse()	16	static
+../Core/Inc/cJSON.cpp:2479:23:cJSON* cJSON_CreateBool(cJSON_bool)	24	static
+../Core/Inc/cJSON.cpp:2490:23:cJSON* cJSON_CreateNumber(double)	24	static
+../Core/Inc/cJSON.cpp:2516:23:cJSON* cJSON_CreateString(const char*)	24	static
+../Core/Inc/cJSON.cpp:2533:23:cJSON* cJSON_CreateStringReference(const char*)	24	static
+../Core/Inc/cJSON.cpp:2545:23:cJSON* cJSON_CreateObjectReference(const cJSON*)	24	static
+../Core/Inc/cJSON.cpp:2556:23:cJSON* cJSON_CreateArrayReference(const cJSON*)	24	static
+../Core/Inc/cJSON.cpp:2566:23:cJSON* cJSON_CreateRaw(const char*)	24	static
+../Core/Inc/cJSON.cpp:2583:23:cJSON* cJSON_CreateArray()	16	static
+../Core/Inc/cJSON.cpp:2594:23:cJSON* cJSON_CreateObject()	16	static
+../Core/Inc/cJSON.cpp:2606:23:cJSON* cJSON_CreateIntArray(const int*, int)	32	static
+../Core/Inc/cJSON.cpp:2646:23:cJSON* cJSON_CreateFloatArray(const float*, int)	32	static
+../Core/Inc/cJSON.cpp:2686:23:cJSON* cJSON_CreateDoubleArray(const double*, int)	32	static
+../Core/Inc/cJSON.cpp:2726:23:cJSON* cJSON_CreateStringArray(const char* const*, int)	32	static
+../Core/Inc/cJSON.cpp:2769:23:cJSON* cJSON_Duplicate(const cJSON*, cJSON_bool)	16	static
+../Core/Inc/cJSON.cpp:2774:9:cJSON* cJSON_Duplicate_rec(const cJSON*, size_t, cJSON_bool)	40	static
+../Core/Inc/cJSON.cpp:2860:13:void skip_oneline_comment(char**)	16	static
+../Core/Inc/cJSON.cpp:2873:13:void skip_multiline_comment(char**)	16	static
+../Core/Inc/cJSON.cpp:2887:13:void minify_string(char**, char**)	16	static
+../Core/Inc/cJSON.cpp:2909:20:void cJSON_Minify(char*)	24	static
+../Core/Inc/cJSON.cpp:2957:26:cJSON_bool cJSON_IsInvalid(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:2967:26:cJSON_bool cJSON_IsFalse(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:2977:26:cJSON_bool cJSON_IsTrue(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:2988:26:cJSON_bool cJSON_IsBool(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:2997:26:cJSON_bool cJSON_IsNull(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:3007:26:cJSON_bool cJSON_IsNumber(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:3017:26:cJSON_bool cJSON_IsString(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:3027:26:cJSON_bool cJSON_IsArray(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:3037:26:cJSON_bool cJSON_IsObject(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:3047:26:cJSON_bool cJSON_IsRaw(const cJSON*)	16	static
+../Core/Inc/cJSON.cpp:3057:26:cJSON_bool cJSON_Compare(const cJSON*, const cJSON*, cJSON_bool)	40	static
+../Core/Inc/cJSON.cpp:3182:22:void* cJSON_malloc(size_t)	16	static
+../Core/Inc/cJSON.cpp:3187:20:void cJSON_free(void*)	16	static
